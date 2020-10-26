@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 
 datapaths = [
-    '/home/sheayun/Desktop/lake_data',
-    '/home/sheayun/Desktop/jungle_data',
+    '../lake_data',
+    '../jungle_data',
 ]
 
 images = []
