@@ -9,8 +9,9 @@ from keras.layers import Convolution2D, Cropping2D
 import matplotlib.pyplot as plt
 
 datapaths = [
-    '/home/sheayun/Desktop/lake_data',
-    '/home/sheayun/Desktop/jungle_data',
+    '../lake_twolaps',
+    '../jungle_twolaps',
+    '../udacity_data',
 ]
 
 # Collect samples from manual driving recordings.
@@ -83,6 +84,7 @@ def generator(samples, batch_size=32):
             for batch_sample in batch_samples:
                 name = batch_sample['img_path']
                 image = cv2.imread(name)
+                image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
                 if batch_sample['flip'] == True:
                     image = cv2.flip(image, 1)
                 angle = float(batch_sample['angle'])
