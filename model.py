@@ -12,11 +12,11 @@ datapaths = [
     '../lake_twolaps',
     '../jungle_twolaps',
     '../udacity_data',
-    '../lake_recovery',
-    '../jungle_recovery',
+    # '../lake_recovery',
+    # '../jungle_recovery',
     '../lake_reverse',
     '../jungle_reverse',
-]
+] 
 
 # Collect samples from manual driving recordings.
 steer_offset = 0.2
