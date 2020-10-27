@@ -1,0 +1,8 @@
+lake
+https://www.dropbox.com/s/q6d2ro45nhikgwn/lake_twolaps.tgz
+
+jungle
+https://www.dropbox.com/s/cxeqvruumh57i0z/jungle_twolaps.tgz
+
+udacity
+https://www.dropbox.com/s/53z1n6lbkwfu251/udacity_data.tgz
