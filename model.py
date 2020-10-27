@@ -16,6 +16,7 @@ datapaths = [
     # '../jungle_recovery',
     '../lake_reverse',
     '../jungle_reverse',
+    '../jungle_corner',
 ] 
 
 # Collect samples from manual driving recordings.

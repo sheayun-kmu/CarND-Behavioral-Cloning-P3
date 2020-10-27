@@ -18,3 +18,6 @@ https://www.dropbox.com/s/rrouc4w7p1xnjxj/lake_reverse.tgz
 
 jungle_reverse
 https://www.dropbox.com/s/qxxu8fj5kfq7cfg/jungle_reverse.tgz
+
+jungle_corner
+https://www.dropbox.com/s/xvtm2nv47pwcmzj/jungle_corner.tgz
