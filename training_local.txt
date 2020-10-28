@@ -1,0 +1,35 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/sheayun/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /home/sheayun/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/sheayun/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/sheayun/.local/lib/python2.7/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/sheayun/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /home/sheayun/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Epoch 1/5
+2020-10-28 16:12:53.831923: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-10-28 16:12:53.842884: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-10-28 16:12:53.852379: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-10-28 16:12:53.852442: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: autoware-850XAC
+2020-10-28 16:12:53.852464: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: autoware-850XAC
+2020-10-28 16:12:53.852588: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.66.0
+2020-10-28 16:12:53.852639: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.66.0
+2020-10-28 16:12:53.852660: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.66.0
+2020-10-28 16:12:53.855819: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2199995000 Hz
+2020-10-28 16:12:53.856504: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560d2b800270 executing computations on platform Host. Devices:
+2020-10-28 16:12:53.856542: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-10-28 16:12:54.347450: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+652/652 [==============================] - 321s 492ms/step - loss: 0.0556 - val_loss: 0.0455
+Epoch 2/5
+652/652 [==============================] - 320s 490ms/step - loss: 0.0444 - val_loss: 0.0420
+Epoch 3/5
+652/652 [==============================] - 321s 492ms/step - loss: 0.0405 - val_loss: 0.0395
+Epoch 4/5
+652/652 [==============================] - 322s 493ms/step - loss: 0.0377 - val_loss: 0.0378
+Epoch 5/5
+652/652 [==============================] - 321s 492ms/step - loss: 0.0353 - val_loss: 0.0370
