@@ -1,14 +1,14 @@
 from model import DNNModel
 
 train_datapaths = [
-    # '../lake_twolaps',
-    # '../jungle_twolaps',
-    # '../udacity_data',
+    '../lake_twolaps',
+    '../jungle_twolaps',
+    '../udacity_data',
     # '../lake_recovery',
     # '../jungle_recovery',
     '../lake_reverse',
-    # '../jungle_reverse',
-    # '../jungle_corner',
+    '../jungle_reverse',
+    '../jungle_corner',
 ] 
 
 if __name__ == '__main__':

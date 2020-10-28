@@ -125,9 +125,13 @@ class DNNModel:
         self.model.compile(loss='mse', optimizer='adam')
         self.training_history = self.model.fit_generator(
             train_generator,
-            steps_per_epoch=np.ceil(len(train_samples) / batch_size),
+            steps_per_epoch=np.ceil(
+                len(train_samples) / float(batch_size)
+            ),
             validation_data=validation_generator,
-            validation_steps=np.ceil(len(validation_samples) / batch_size),
+            validation_steps=np.ceil(
+                len(validation_samples) / float(batch_size)
+            ),
             epochs=epochs,
             verbose=1
         )
